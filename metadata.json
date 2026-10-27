@@ -1,0 +1,6 @@
+{
+  "name": "MAE101 Exam 2 AI Grader & Practice Suite",
+  "description": "Interactive AI-graded calculus and linear algebra exam practice suite based on MAE101 Test 2 (S.S. DuyMT), with LaTeX editor, instant AI grading, error analysis, retake & fix error infinite loop, and history analytics export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
