@@ -267,7 +267,7 @@ function gradeLocally(userAnswer: string, questionData: any) {
 }
 
 // API route to grade user answer with Gemini, OpenAI, or Offline fallback
-app.post('/api/grade', async (req, res) => {
+app.post(['/api/grade', '/grade'], async (req, res) => {
   try {
     const { questionId, userAnswer, questionData, aiSettings } = req.body;
     
