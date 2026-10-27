@@ -241,6 +241,10 @@ app.get('/api/questions', (req, res) => {
   res.json(questionsData);
 });
 
+app.get('/questions', (req, res) => {
+  res.json(questionsData);
+});
+
 // Robust Local Grader (Offline Fallback Mode)
 function gradeLocally(userAnswer: string, questionData: any) {
   const cleanUser = (userAnswer || "").toLowerCase().replace(/\s+/g, '');
