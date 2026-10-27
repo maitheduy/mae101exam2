@@ -233,7 +233,7 @@ export const questionsData = [
   }
 ];
 
-const app = express();
+export const app = express();
 app.use(express.json());
 
 // API route to get all questions
